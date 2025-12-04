@@ -7,16 +7,17 @@ Using calibre, I then transformed it to a `.mobi` file to work nicely on kindle.
 
 # Run
 
-Install dependencies
-
 ```bash
+# Install dependencies
 uv sync
-```
 
-```bash
+# Activate virtual env
+source .venv/bin/activate
+
+# Download catalog into json file
+# Important: edit your catalog.json to customize your selection
 python collect_prayers.py
 
-# Important: edit your catalog.json to customize your selection.
-
+# Save selection to docx
 python save_book.py
 ```
