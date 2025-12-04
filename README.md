@@ -7,6 +7,8 @@ Using calibre, I then transformed it to a `.mobi` file to work nicely on kindle.
 
 # Run
 
+If you want to experiment with the code, you can use the included jupyter notebook to keep the downloaded soups locally and avoid unnecessary network calls, as rate limiting might be applied to the website in the future.
+
 ```bash
 # Install dependencies
 uv sync
